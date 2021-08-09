@@ -1,0 +1,19 @@
+{
+  "name": "realm",
+  "version": "1.0.0",
+  "description": "Quick demo on how to deploy multiple services using NGINX proxy-server on Kubernetes and coordinated by helm.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luis-israel-velez/realm.git"
+  },
+  "author": "Luis V",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luis-israel-velez/realm/issues"
+  },
+  "homepage": "https://github.com/luis-israel-velez/realm#readme"
+}
