@@ -19,5 +19,11 @@ The following was heavily influenced by: https://www.youtube.com/watch?v=u3sXfcn
 
    Once you execute "docker run -d <detach> -p 3015:3015 <image>:<tag> you can see at Logs 
    docker logs <id of image> 
+3. Now we start getting into kubernetes!! Start minikube with "minikube start --driver=docker"
+4. Build .yaml for deployment and run, make sure your docker is tied to the minikube docker
+5. Build .yaml for services both as ClusterIP (internal) or LoadBalancer (external)
 
+
+
+ 
 
